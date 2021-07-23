@@ -33,3 +33,12 @@
     display: flex;
     text-align: center;
 }
+.portfolio img{
+    width: 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.portfolio{
+    text-align: center;
+    margin-bottom: 20px;    
+}
