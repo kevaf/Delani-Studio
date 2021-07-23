@@ -24,3 +24,12 @@
     color: white;
     padding: 7%;
 }
+.whatwedo {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.icons{
+    display: flex;
+    text-align: center;
+}
