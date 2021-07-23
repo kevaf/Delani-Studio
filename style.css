@@ -3,12 +3,14 @@
     background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 16%;
+    padding-top: 14%; 
     padding-bottom: 5%;
     color: white;
 }
+.landing h1{
+    padding-top: 2%;
+}
 #mouse{
-    padding-top: 18%;
     margin-top: 10%;
 }
 #about{
@@ -46,18 +48,36 @@
     background-image: url(./assets/backgrounds/c_image.jpg);
     color: white;
     text-align: center;
-    padding: 3%;
- 
+    padding: 3%; 
+}
+.contactform form{
+    color: white;
 }
 
 #name, #email{
     width: 30%;
+    color: white;
     margin-top: 2%;
     margin-right: 2%;
+    opacity: 0.4;
+    border: 2px solid white;
+    
 }
-
 #message{
     width:59%;
     height: 300px;
     margin-top: 2%;
+    opacity: 0.2;
+    border: 2px white;
+    
 }
+.footer{
+    padding-top: 2%;
+    text-align: center;
+}
+.footer p{
+    padding-top: 2%;
+    font-size: small;
+}
+
+
