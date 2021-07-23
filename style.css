@@ -8,6 +8,12 @@
     color: white;
 }
 #mouse{
-    padding-top: 20%;
+    padding-top: 18%;
     margin-top: 10%;
 }
+#about{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
