@@ -33,12 +33,17 @@
 }
 .icons{
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
+    text-align:center;
+    justify-content:space-evenly;
+
 }
 #destxt, #develtxt, #producttxt{
     display:none;
+    height: fit-content;
+    width:fit-content;
+    
 }
+
 .portfolio img{
     width: 20%;
     margin-right: 20px;
@@ -83,5 +88,6 @@
     padding-top: 2%;
     font-size: small;
 }
+
 
 
