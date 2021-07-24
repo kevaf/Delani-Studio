@@ -34,8 +34,9 @@
 .icons{
     display: flex;
     text-align: center;
+    justify-content: space-evenly;
 }
-#destxt{
+#destxt, #develtxt, #producttxt{
     display:none;
 }
 .portfolio img{
