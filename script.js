@@ -1,5 +1,7 @@
-$(document).ready (function(){
-   
+$(document).ready(function(){  
+    $("form").submit(function(){
+        alert("thank you for filling the feedback form");
+    })
 //    WHAT WE DO 
 
     $("#design").click(function(){

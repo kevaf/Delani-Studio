@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="landing">
@@ -90,10 +91,12 @@
     <div class="contact">
         <h1>CONTACT US</h1>
             
-                <input type="text" placeholder="Name..." id="name">
-                <input type="text" placeholder="Email..." id="email"><br>
-                <textarea name="" placeholder="Your message here..." id="message" cols="30" rows="10"></textarea><br>
-                <input type="button" value="Submit">
+                <form action="">
+                    <input type="text" placeholder="Name..." id="name" required>
+                    <input type="email" placeholder="Email..." id="email" required>
+                    <textarea name="" placeholder="Your message here..." id="message" cols="30" rows="10" required></textarea><br>
+                    <button>Submit</button>
+                </form>
                
     </div>
     <div class="footer">
@@ -108,6 +111,7 @@
         <img src="./assets/social_icons/flickr.png" alt="">
         <p>DELANI STUDIO <br>2019</p>
     </div>
+    <script src="script.js"></script>
     
 </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 .landing{
     background-image: url(./assets/backgrounds/h_img.jpg); 
     background-size:cover;
@@ -54,13 +56,24 @@
     margin-bottom: 20px;    
 }
 .contact{
-    background-image: url(./assets/backgrounds/c_image.jpg);
+    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-position: center;
+    background-size: cover ;
     color: white;
     text-align: center;
     padding: 3%; 
 }
-.contactform form{
+
+input[type="text"], input[type="email"], #message{
+    border: 2px solid white;
+    background: transparent;
+    
+}
+#button{
+    border: 2px solid white;
+    background: transparent;
     color: white;
+
 }
 
 #name, #email{
@@ -68,7 +81,6 @@
     color: white;
     margin-top: 2%;
     margin-right: 2%;
-    opacity: 0.4;
     border: 2px solid white;
     
 }
@@ -76,10 +88,14 @@
     width:59%;
     height: 300px;
     margin-top: 2%;
-    opacity: 0.2;
-    border: 2px white;
     
+ }
+
+ #name::placeholder, #email::placeholder, #message::placeholder{
+    color: white;
 }
+    
+
 .footer{
     padding-top: 2%;
     text-align: center;
@@ -93,6 +109,7 @@
     position: relative;
     text-align: center;
     color: black;
+    font-family: 'Otomanopee One', sans-serif;
 }
 #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
     position: absolute;
@@ -101,3 +118,5 @@
     transform: translate(-50%, -50%);
     display: none;
 }
+
+
