@@ -70,4 +70,40 @@ $(document).ready (function(){
         $(this).css('opacity', '1');
         $('#p4').hide();
     });
+
+    $("#project5").mouseover(function(){
+        $(this).css('opacity', '0.4');
+        $('#p5').show();
+    });
+
+    $("#project5").mouseout(function(){
+        $(this).css('opacity', '1');
+        $('#p5').hide();
+    });
+
+    $("#project6").mouseover(function(){
+        $(this).css('opacity', '0.4');
+        $('#p6').show();
+    });
+    $("#project6").mouseout(function(){
+        $(this).css('opacity', '1');
+        $('#p6').hide();
+    });
+    $("#project7").mouseover(function(){
+        $(this).css('opacity', '0.4');
+        $('#p7').show();
+    });
+    $("#project7").mouseout(function(){
+        $(this).css('opacity', '1');
+        $('#p7').hide();
+    });
+    $("#project8").mouseover(function(){
+        $(this).css('opacity', '0.4');
+        $('#p8').show();
+    });
+
+    $("#project8").mouseout(function(){
+        $(this).css('opacity', '1');
+        $('#p8').hide();
+    });
 });
