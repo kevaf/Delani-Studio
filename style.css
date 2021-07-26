@@ -73,6 +73,7 @@ input[type="text"], input[type="email"], #message{
     border: 2px solid white;
     background: transparent;
     color: white;
+    
 
 }
 
@@ -93,6 +94,7 @@ input[type="text"], input[type="email"], #message{
 
  #name::placeholder, #email::placeholder, #message::placeholder{
     color: white;
+    font-family: 'Otomanopee One', sans-serif;
 }
     
 
